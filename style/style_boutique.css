@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;700;800;900&family=Tektur&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: black;
+    height: 400em ;
+    color: white;
+    /* background-image: url('../image/B2.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;  */
+
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.702);
+}
+li{
+    list-style-type:none;
+}
+
+
+header nav a img{
+    width: 100%;
+    margin: 15px 0px;
+}
+
+
+header nav{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255,255,255,.08);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    padding: 0px 60px;
+    position: fixed;
+    z-index: 10000000;
+}
+header nav ul{
+    display: flex;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 30px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+
+}
+header nav li{
+    margin-left: 30px;
+    padding: 10px;
+    padding-right: 30px;
+    font-size: 15px;
+}
+header nav span{
+    font-size: 15px;
+    padding: 15px;    
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 30px;
+    background: transparent;
+    /* background: linear-gradient(45deg,#7FFFFE,#FD209A); */
+    backdrop-filter: blur(40px);
+    margin-right: 40px;
+}
+.iframe{
+    padding-top: 7em;
+    width: 100%;
+    height: 
+    auto;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.iframe iframe{
+
+    width:43%;
+    height: 50em;
+}
+.info_produit{
+    border: white 1px solid;
+    border-radius: 20px;
+    color: white;
+    width: 40%;
+    /* height: 60%; */
+        font-size: 20px;
+    padding: 20px;
+}
+
+.info_produit p {
+    margin-top: 40px;
+    width: 85%;
+    height: auto;
+    columns: 10rem auto;
+}
+.info_produit h2 {
+    margin-bottom: 15px;
+
+}
+.info_produit button{
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(45deg, #f92398, #7bfffd);
+    border-radius: 20px;
+    font-weight: 800;
+    border: solid 2px black;
+    transition: all 0.5s;
+}
+.info_produit button:hover{
+    transition: all 0.5s;
+    border: solid 2px white;
+    color: white;
+}
+.titre{
+    padding-top: 270px;
+    color: white;
+    text-align: center;
+
+}
+.titre h1{
+    margin: 20px 0px;
+    padding: 0px 50px;
+    text-align: center;
+    font-size: 45px;
+}
+
+#even{
+    background: linear-gradient(45deg, #f92398, #7bfffd);
+    background-clip: text;
+    color: transparent;
+}
+#acheter_place_btn{
+    padding: 12px;
+    font-size: 20px;
+    background: linear-gradient(45deg, #f92398, #7bfffd);
+    border-radius: 20px;
+    border: black solid 2px;
+    transition: all 0.5s;
+}
+#acheter_place_btn:hover{
+    border: white solid 2px;
+    color: white;
+    transition: all 0.5s;
+}
+.streamer{
+    margin-top: 25%;
+    text-align: center;
+}
+.streamer h2{
+    font-size: 50px;
+    background: linear-gradient(45deg, #f92398, #7bfffd);
+    background-clip: text;
+    color: transparent;
+}
+.liste_str{
+    padding: 80px 80px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    gap: 80px;
+
+}
+.str{
+    height: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.str img{
+    width: 17em;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
