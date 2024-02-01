@@ -8,7 +8,7 @@
 body{
     font-family: sans-serif;
     background-color: black;
-    height: 400em ;
+    height: auto;
     color: white;
     /* background-image: url('../image/B2.jpg');
     background-size: cover; 
