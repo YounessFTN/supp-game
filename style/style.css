@@ -92,16 +92,14 @@ iframe{
     text-align: center;
     color: rgb(215, 215, 215);
 }
-.pres h1{
+.pres h2{
     font-weight: 400;
-    background: linear-gradient( #f92398, black);
-    background-clip: text;
-    color: transparent;
+    color: white;
     margin-bottom: 100px;
     font-size: 60px;
 }
 .pres p{
-    color: #af1b6c;
+    color: white;
     font-size: 20px;
     margin-left: 15%;
     width: 70%;
@@ -109,8 +107,19 @@ iframe{
     line-height: 1.4em;
 }
 
+
+::selection {
+    background-color: your-desired-color;
+    color: your-desired-text-color;
+}
+
+::-moz-selection {
+    background-color: your-desired-color;
+    color: your-desired-text-color;
+}
+.none{
+    display: none;
+}
 .importante{
-    background: linear-gradient( #7bfffd, black);
-    background-clip: text;
-    color: transparent;
+    color: #f92398;
 }
